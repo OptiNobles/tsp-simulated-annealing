@@ -143,8 +143,8 @@ class SimulatedAnnealing:
     def __2_opt_algorithm(self, improvement_threshold = 0.005, max_time = 20):
         """
         IMP. Starts with the best solution SAO has provided. It improves the solution incrementally by exchanging 2 nodes in the path with two other nodes.
-        This process is repeated until the necessary precision is reached. The whole process is constructed in such a way that if the necessary precision
-        is reached IMP updates SAO's best solution, otherwise it keep searching, but for no more than 10% of the maximum time. By default this function's runtime
+        This process repeats until the necessary precision is reached. The whole process is constructed in such a way that if the necessary precision
+        is reached IMP updates SAO's best solution, otherwise it keeps searching, but for no more than 10% of the maximum time. By default this function's runtime
         is set to 20 seconds.
 
         :param improvement_threshold: Desired improvement of the best solution at each iteration.
