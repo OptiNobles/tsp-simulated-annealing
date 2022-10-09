@@ -1,6 +1,9 @@
 # tsp-simulated-annealing
 
-Simulated annealing optimizer designed to solve Travelling Salesman Problem (TSP). 
+Simulated annealing optimizer designed to solve Travelling Salesman Problem (TSP). Working of this optimizer consists of three stages:
+* Stage 1: Greedy algorithm provides an initial solution,
+* Stage 2: Simulated Annealing searches solutions space,
+* Stage 3: 2-Opt algorithm improves the solution obtained in stage 2. (optional)
 
 # DEMO 
 
